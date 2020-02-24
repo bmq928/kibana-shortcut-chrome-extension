@@ -1,5 +1,5 @@
 document.addEventListener('keydown', event => {
-  if (!isKibanaPage) return
+  if (!isKibanaPage()) return
   whenCtrlAndSemiPressed(event, () => togglePanel())
 })
 

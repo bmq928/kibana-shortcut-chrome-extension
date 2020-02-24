@@ -1,0 +1,17 @@
+{
+  "name": "Kibana Shortcut",
+  "version": "1.0",
+  "description": "Build an Extension!",
+  "manifest_version": 2,
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "<all_urls>"
+      ],
+      "js": ["toggle-panel.js"]
+    }
+  ]
+}

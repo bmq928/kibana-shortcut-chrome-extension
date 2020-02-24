@@ -1,0 +1,9 @@
+{
+  "name": "es-shortcut",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/chrome": "^0.0.96"
+  }
+}

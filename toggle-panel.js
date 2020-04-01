@@ -14,7 +14,7 @@ function isKibanaPage() {
 }
 
 function togglePanel() {
-  const [queryPanel, resultPanel] = document.querySelectorAll('textarea')
+  const [_,queryPanel, resultPanel] = document.querySelectorAll('textarea')
   const focused = document.activeElement
 
   if (focused !== queryPanel) return queryPanel.focus()
